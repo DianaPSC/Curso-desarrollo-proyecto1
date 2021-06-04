@@ -1,6 +1,6 @@
 <?php
 header('Access-Control-Allow-Origin: *');
-$db = mysqli_connect('localhost','root','','appsalon');
+$db = mysqli_connect();
 
 if (!$db) {
     echo "Error: No se pudo conectar a MySQL.";
